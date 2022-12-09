@@ -7,10 +7,10 @@
     </div>
 </template>
 <script>
-// import ExcelPreview from "../packages/components/ExcelPreview/ExcelPreview.vue";
+import ExcelPreview from "../packages/components/ExcelPreview/ExcelPreview.vue";
 export default {
     name: "app",
-    // components: { ExcelPreview },
+    components: { ExcelPreview },
     mounted() {},
     methods: {
         selectedFile(e) {

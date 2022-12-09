@@ -1,7 +1,7 @@
 {
   "name": "@zeelyn/excel-preview-vue3",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/excel-preview-vue3.umd.js",
   "exports": {
     ".": {
@@ -19,7 +19,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zeelyn/excel-preview-vue3": "^1.0.0",
     "@zeelyn/excel-to-table": "^1.0.2",
     "numfmt": "^2.4.3",
     "vue": "^3.2.45"

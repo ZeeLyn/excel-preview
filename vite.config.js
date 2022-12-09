@@ -7,7 +7,7 @@ export default defineConfig({
     build: {
         copyPublicDir: false,
         rollupOptions: {
-            external: ["vue", "numfmt", "@zeelyn/excel-to-table", "@zeelyn/excel-preview-vue3"],
+            external: ["vue", "numfmt", "@zeelyn/excel-to-table"],
             output: {
                 globals: {
                     vue: "Vue",
